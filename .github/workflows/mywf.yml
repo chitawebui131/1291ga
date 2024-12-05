@@ -9,4 +9,5 @@ jobs:
     steps:
       - run: echo "secrets a ${{ secrets.MY_SECRET_NAME }} ."
       - run: echo "Vars= ${{ vars.MY_NAME }} on GitHub!"
+      - run: echo "Vars= ${{ env.MY_NAME }} on GitHub!"
      
